@@ -1,0 +1,38 @@
+input[type='text'],
+input[type='email'],
+input[type='tel'],
+textarea {
+	width: 100%;
+	padding: 10px 0 10px 6px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+input[type='text']:focus,
+input[type='email']:focus,
+input[type='tel']:focus,
+select:focus,
+textarea:focus {
+	border: 1px solid #5db6db;
+	box-shadow: 0 0 10px #b9eaff;
+	outline: none !important;
+}
+input[type='submit'] {
+	background: rgb(94, 195, 238);
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.main-feedback-form {
+	max-width: 450px;
+	margin: 0 auto;
+	background-color: aliceblue;
+	padding: 20px 45px 20px 25px;
+	border-radius: 5px;
+}
+.main-feedback-form-2 {
+	background-color: rgb(240, 255, 244);
+}
